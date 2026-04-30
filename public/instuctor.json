@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "expertise": "Full Stack Web Development",
+      "experience": "5 years",
+      "rating": 4.8,
+      "courses": 12,
+      "image": "https://i.ibb.co.com/whyP7kwx/man-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "expertise": "React & Frontend Development",
+      "experience": "4 years",
+      "rating": 4.7,
+      "courses": 9,
+      "image": "https://i.ibb.co.com/cKCfQKnq/man-2.png"
+    },
+    {
+      "id": 3,
+      "name": "Sophia Taylor",
+      "email": "sophia@example.com",
+      "expertise": "Machine Learning & Data Science",
+      "experience": "6 years",
+      "rating": 4.9,
+      "courses": 15,
+      "image": "https://i.ibb.co.com/N2rZgNRp/women-2.png"
+    }
+  ]

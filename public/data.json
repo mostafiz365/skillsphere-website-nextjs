@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Machine Learning A-Z",
+    "instructor": "Sophia Taylor",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Build machine learning models with real datasets.",
+    "image": "https://i.ibb.co.com/1G7ySJk4/course-img-1.webp",
+    "category": "Data Science"
+  },
+  {
+    "id": 2,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.ibb.co.com/q3xns52n/course-img-2.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "Python for Data Science",
+    "instructor": "David Wilson",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Analyze data using Python, Pandas, and NumPy.",
+    "image": "https://i.ibb.co.com/4w6zyfNy/course-img-3.jpg",
+    "category": "Data Science"
+  },
+  {
+    "id": 4,
+    "title": "Advanced React & Next.js",
+    "instructor": "Jane Smith",
+    "duration": "18 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master React and Next.js with real-world projects.",
+    "image": "https://i.ibb.co.com/qMNhh1Ts/course-img-4.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Node.js & Express API",
+    "instructor": "Daniel Lee",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build RESTful APIs using Node.js and Express.",
+    "image": "https://i.ibb.co.com/7tWkq3y4/course-img-5.png",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Fundamentals",
+    "instructor": "Michael Brown",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Understand the core concepts of JavaScript.",
+    "image": "https://i.ibb.co.com/GfgTsJPm/course-img-6.png",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Graphic Design with Photoshop",
+    "instructor": "Olivia Martin",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Intermediate",
+    "description": "Create stunning graphics using Adobe Photoshop.",
+    "image": "https://i.ibb.co.com/ns8xMVDB/course-img-7.jpg",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "Flutter App Development",
+    "instructor": "Emma White",
+    "duration": "19 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Build cross-platform mobile apps with Flutter.",
+    "image": "https://i.ibb.co.com/BH8Fb8Pk/course-img-8.jpg",
+    "category": "Mobile Development"
+  },
+  {
+    "id": 9,
+    "title": "UI/UX Design Basics",
+    "instructor": "Emily Davis",
+    "duration": "12 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn design principles and user experience fundamentals.",
+    "image": "https://i.ibb.co.com/rG20YVy8/course-img-9.jpg",
+    "category": "Design"
+  }
+]
