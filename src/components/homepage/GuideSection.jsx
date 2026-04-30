@@ -8,7 +8,7 @@ const GuideSection = () => {
         <div className='bg-[#F9FAFC]'>
             <div className='py-28'>
                 <div className='text-center space-y-5'>
-                    <h3 className='text-5xl font-extrabold text-[#101727]'>Get Started in 3 Steps</h3>
+                    <h3 className='text-5xl font-bold text-[#4737b0]'>Get Started in 3 Steps</h3>
                     <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>
                 </div>
                 <div className='max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-right mt-10 px-4'>

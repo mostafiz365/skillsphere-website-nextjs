@@ -12,7 +12,7 @@ const Navbar = () => {
     </>
     return (
         <div className='bg-[#292654]'>
-            <div className="navbar shadow-sm max-w-7xl mx-auto">
+            <div className="navbar border-b max-w-7xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,8 +32,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href="/signup">
-        <button className="bg-[#4737b0] text-white rounded-full py-2 px-4">SignUp</button>
+    <Link href="/signin">
+        <button className="bg-[#4737b0] text-white rounded-full py-2 px-4">SignIn</button>
     </Link>
   </div>
 </div>

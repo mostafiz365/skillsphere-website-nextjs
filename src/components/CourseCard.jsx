@@ -20,7 +20,7 @@ const CourseCard = ({course}) => {
         <h4 className="text-xl font-medium">{course.instructor}</h4>
         <p className="font-medium text-[#4737b0] flex items-center gap-2"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar />{course.rating}</p>
       </div>
-      <Link href={``}>
+      <Link href={`/courses/${course.id}`}>
         <Button className={'w-full font-semibold bg-[#4737b0]'}>View Details </Button>
       </Link>
     </Card>
