@@ -7,7 +7,7 @@
       "experience": "5 years",
       "rating": 4.8,
       "courses": 12,
-      "image": "https://i.ibb.co.com/whyP7kwx/man-1.png"
+      "image": "https://i.ibb.co.com/KvxDhhF/instructor-1.jpg"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "experience": "4 years",
       "rating": 4.7,
       "courses": 9,
-      "image": "https://i.ibb.co.com/cKCfQKnq/man-2.png"
+      "image": "https://i.ibb.co.com/JF2Z3CJt/instructor-2.jpg"
     },
     {
       "id": 3,
@@ -27,6 +27,6 @@
       "experience": "6 years",
       "rating": 4.9,
       "courses": 15,
-      "image": "https://i.ibb.co.com/N2rZgNRp/women-2.png"
+      "image": "https://i.ibb.co.com/4w2pFCXH/instructor-3.webp"
     }
   ]

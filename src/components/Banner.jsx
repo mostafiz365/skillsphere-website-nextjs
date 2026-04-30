@@ -11,7 +11,7 @@ const Banner = () => {
                 <button className="bg-[#4737b0] text-white font-semibold rounded-full py-3 px-5">Join Us Now</button>
             </div>
             <div>
-                <Image src={BannerImg} alt="banner Image" height={800} width={600} className="mx-auto"></Image>
+                <Image src={BannerImg} alt="banner Image" height={800} width={600} className="mx-auto rounded-lg"></Image>
             </div>
         </div>
     </div>

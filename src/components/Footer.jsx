@@ -24,31 +24,31 @@ const Footer = () => {
 
           <div>
             <h3 className="font-semibold text-white mb-4">
-              Product
+              Social Links
             </h3>
             <ul className="space-y-3 text-white">
               <li>
                 <Link
-                  href="/generate"
+                  href="/facebook"
                   className="text-white"
                 >
-                  Generate
+                  FaceBook
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/all-photos"
+                  href="/twitter"
                   className="text-white"
                 >
-                  Gallery
+                  twitter
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/pricing"
+                  href="/linkedin"
                   className="text-white"
                 >
-                  Pricing
+                  LinkedIn
                 </Link>
               </li>
             </ul>
