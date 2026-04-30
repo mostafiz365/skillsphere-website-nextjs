@@ -1,17 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
+import MyNavLink from './MyNavLink';
 
 const Navbar = () => {
 
     const links = <>
-    <li><Link href="/">Home</Link></li>
-    <li><Link href="/courses">Courses</Link></li>
-    <li><Link href="/profile">My Profile</Link></li>
+    <li><MyNavLink href="/">Home</MyNavLink></li>
+    <li><MyNavLink href="/courses">Courses</MyNavLink></li>
+    <li><MyNavLink href="/profile">My Profile</MyNavLink></li>
 
     </>
     return (
-        <div>
-            <div className="navbar bg-[#292654] shadow-sm">
+        <div className='bg-[#292654]'>
+            <div className="navbar shadow-sm max-w-7xl mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
