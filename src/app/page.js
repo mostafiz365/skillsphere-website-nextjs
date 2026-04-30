@@ -1,6 +1,8 @@
 import Banner from "@/components/Banner";
 import Courses from "@/components/homepage/Courses";
+import GuideSection from "@/components/homepage/GuideSection";
 import Instructors from "@/components/homepage/Instructors";
+import Stats from "@/components/homepage/Stats";
 
 
 export default function Home() {
@@ -8,7 +10,9 @@ export default function Home() {
     <div>
       <Banner></Banner>
       <Courses></Courses>
+      <Stats></Stats>
       <Instructors></Instructors>
+      <GuideSection></GuideSection>
     </div>
   );
 }
