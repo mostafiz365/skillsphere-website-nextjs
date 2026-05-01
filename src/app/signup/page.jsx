@@ -11,11 +11,13 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { useRouter } from "next/navigation";
 import { FaGoogle } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 export default function SignUpPage() {
 
-    // const router = useRouter();
+    const router = useRouter();
   const onSubmit = async (e) => {
     e.preventDefault();
     const name = e.target.name.value;
@@ -31,18 +33,24 @@ export default function SignUpPage() {
     })
     console.log({data, error});
     if(error){
-        alert(error.message)
+        toast.error(error.message)
     }
     if(data){
-        alert('Signup Successfully!');
-        // router.push('/')
+        router.push('/signin')
     }
 
   };
 
+  const handleGoogleBtn = async() => {
+      await authClient.signIn.social({
+      provider: "google",
+      callbackURL: '/',
+    });
+    }
+
   return (
     <Card className="border border-gray-300 mx-auto w-125 py-8 my-8">
-      <h1 className="text-center text-2xl font-bold">Sign Up</h1>
+      <h1 className="text-center text-3xl font-bold text-[#4737b0]">Sign Up</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
@@ -104,13 +112,13 @@ export default function SignUpPage() {
         <div className="flex gap-2">
           <Button type="submit" className='bg-[#4737b0]'>
             <Check />
-            Submit
+            SignUp
           </Button>
           <Button type="reset" variant="secondary">
             Reset
           </Button>
         </div>
-        <Button variant="outline" className='text-blue-500 w-full'><FaGoogle></FaGoogle> Signup with Google</Button>
+        <Button onClick={handleGoogleBtn} variant="outline" className='text-blue-500 w-full'><FaGoogle></FaGoogle> Signup with Google</Button>
       </Form>
     </Card>
   );

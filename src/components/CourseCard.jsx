@@ -13,7 +13,7 @@ const CourseCard = ({course}) => {
                 alt={course.title}
                 className="object-cover rounded-xl"></Image>
 
-                <Chip size="sm" className="absolute right-2 top-2">{course.category}</Chip>
+                <Chip size="sm" className="absolute right-2 top-2 bg-green-500 text-white">{course.category}</Chip>
             </div>
       <div className="space-y-2">
         <h2 className=" font-semibold text-xl text-[#4737b0]">{course.title}</h2>

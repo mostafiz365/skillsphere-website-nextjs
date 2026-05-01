@@ -1,8 +1,12 @@
+import dns from "node:dns";
+dns.setServers(['8.8.8.8','8.8.4.4']);
+
 
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { ToastContainer } from "react-toastify";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -23,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
         {children}
+        <ToastContainer />
         <Footer></Footer>
         </body>
     </html>

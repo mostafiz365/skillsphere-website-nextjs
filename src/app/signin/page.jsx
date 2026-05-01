@@ -12,6 +12,8 @@ import {
   TextField,
 } from "@heroui/react";
 import Link from "next/link";
+import { FaGoogle } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 export default function SignInPage() {
   const onSubmit = async (e) => {
@@ -24,16 +26,21 @@ export default function SignInPage() {
         password,
         callbackURL: '/',
     })
-    if(data){
-        alert('SignIn Successfully');
+    if(error){
+        toast.error(error.message);
     }
-    console.log({data, error});
-
   };
+
+  const handleGoogleBtn = async() => {
+    await authClient.signIn.social({
+    provider: "google",
+    callbackURL: '/',
+  });
+  }
 
   return (
     <Card className="border border-gray-300 mx-auto w-125 py-10 my-20">
-      <h1 className="text-center text-2xl font-bold">Sign In</h1>
+      <h1 className="text-center text-3xl font-bold text-[#4737b0]">Sign In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
 
@@ -86,14 +93,16 @@ export default function SignInPage() {
         <div className="flex gap-2">
           <Button type="submit" className='bg-[#4737b0]'>
             <Check />
-            Submit
+            SignIn
           </Button>
           <Button type="reset" variant="secondary">
             Reset
           </Button>
         </div>
+        <Button onClick={handleGoogleBtn} variant="outline" className='text-blue-500 w-full'><FaGoogle></FaGoogle> Signup with Google</Button>
       </Form>
       <p className="text-center text-gray-600">Don't Have an account? <span className="text-blue-500 font-medium"><Link href="/signup"> SignUp</Link></span></p>
+
     </Card>
   );
 }
