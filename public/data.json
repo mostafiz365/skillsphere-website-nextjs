@@ -72,8 +72,8 @@
     "duration": "14 hours",
     "rating": 4.6,
     "level": "Intermediate",
-    "description": "Create stunning graphics using Adobe Photoshop.",
-    "image": "This comprehensive course covers machine learning concepts from basics to advanced topics. You will work with real-world datasets, build predictive models, and understand algorithms like regression, classification, and clustering using Python libraries such as Scikit-learn, TensorFlow, and Pandas.",
+    "description": "This comprehensive course covers machine learning concepts from basics to advanced topics. You will work with real-world datasets, build predictive models, and understand algorithms like regression, classification, and clustering using Python libraries such as Scikit-learn, TensorFlow, and Pandas.",
+    "image": "https://i.ibb.co.com/5yDVFQ9/course-img-7.jpg",
     "category": "Design"
   },
   {
@@ -83,8 +83,8 @@
     "duration": "19 hours",
     "rating": 4.6,
     "level": "Beginner",
-    "description": "Build cross-platform mobile apps with Flutter.",
-    "image": "Learn full-stack web development from scratch using modern technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB. This course guides you step by step to build responsive websites and real-world applications, making you job-ready as a web developer.",
+    "description": "Learn full-stack web development from scratch using modern technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB. This course guides you step by step to build responsive websites and real-world applications, making you job-ready as a web developer.",
+    "image": "https://i.ibb.co.com/60bZTbqX/course-img-8.jpg",
     "category": "Mobile Development"
   },
   {
