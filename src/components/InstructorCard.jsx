@@ -18,9 +18,7 @@ const InstructorCard = ({instructor}) => {
                 <h4 className="text-xl font-medium">{instructor.expertise}</h4>
                 <p className="font-medium text-[#4737b0] flex items-center gap-2"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar />{instructor.rating}</p>
               </div>
-              <Link href={``}>
                 <Button className={'w-full font-semibold bg-[#4737b0]'}>View Details </Button>
-              </Link>
             </Card>
     );
 };
