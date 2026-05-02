@@ -9,15 +9,15 @@ const Footer = () => {
       {/* Content */}
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* Top Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center lg:text-left">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
+            <div className="">
               <h2 className="text-xl font-semibold text-white">
                 Skillsphere
               </h2>
             </div>
-             <p className="leading-relaxed text-white max-w-xs">
+             <p className="leading-relaxed text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio sunt ipsam.
             </p>
           </div>

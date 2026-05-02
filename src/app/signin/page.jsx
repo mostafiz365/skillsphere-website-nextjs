@@ -39,10 +39,10 @@ export default function SignInPage() {
   }
 
   return (
-    <Card className="border border-gray-300 mx-auto w-125 py-10 my-20">
+    <Card className="border border-gray-300 mx-auto max-w-2xl py-10 my-20">
       <h1 className="text-center text-3xl font-bold text-[#4737b0]">Sign In</h1>
 
-      <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
+      <Form className="flex max-w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
 
         <TextField
           isRequired

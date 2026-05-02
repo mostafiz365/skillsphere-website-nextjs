@@ -91,7 +91,7 @@ export default function TimeManagement() {
 
         {/* RIGHT IMAGE (parallax tilt effect) */}
         <motion.div
-          initial={{ opacity: 0, x: 60 }}
+          initial={{ opacity: 0, x: 0 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           className="flex justify-center"
