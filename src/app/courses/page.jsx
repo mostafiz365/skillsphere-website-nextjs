@@ -63,9 +63,10 @@ const CoursesPage = () => {
               <CourseCard key={course.id} course={course} />
             ))
           ) : (
-            <p className="text-center col-span-3 text-gray-500">
-              No courses found
-            </p>
+            <div className='flex h-[80vh] justify-center items-center'>
+            All Courses Loading
+            <span className="loading loading-dots loading-xl"></span>
+        </div>
           )}
         </div>
       </div>

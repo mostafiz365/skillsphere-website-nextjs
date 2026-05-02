@@ -56,7 +56,7 @@ const Footer = () => {
 
           <div>
             <h3 className="font-semibold text-white mb-4">
-              Company
+              Contact info
             </h3>
             <ul className="space-y-3 text-white">
               <li>
@@ -72,7 +72,7 @@ const Footer = () => {
                   href="/contact"
                   className="text-white"
                 >
-                  Contact
+                  Phone
                 </Link>
               </li>
               <li>
@@ -80,18 +80,18 @@ const Footer = () => {
                   href="/terms"
                   className="text-white"
                 >
-                  Terms
+                  Email
                 </Link>
               </li>
             </ul>
           </div>
           <div className="space-y-4">
             <h3 className="text-white">
-              Start creating
+              Start learning
             </h3>
 
             <p className="text-white">
-              Generate your first AI image today.
+              Build your first Skills with our platform today.
             </p>
 
             <Link
