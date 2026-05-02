@@ -14,7 +14,7 @@ const TrendingCourses = async() => {
                          Discover most popular courses to boost your skills effectively
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
                         {
                             courses.slice(6,9).map(course => <CourseCard key={course.id} course={course}></CourseCard>)
                         }
